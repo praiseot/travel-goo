@@ -1,0 +1,607 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+     background: url(assets/background.jpg); 
+    background-size: cover;
+    background-position: top-left;
+    background-repeat: no-repeat;
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 20px 100px; */
+}
+
+.navbar{
+    width: 350px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar a{
+    width: 85px;
+    height: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+    height: 50px;
+}
+.profile{
+    width: 110px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+}
+
+.hero-content h1 {
+    color: white;
+    font-size: 75px;
+    text-align: center;
+}
+.hero-content p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+}
+.hero-content button{
+    width: 214px;
+    height: 64px;
+    background-color: #00A651;
+    margin: 20px auto;
+    display: block;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border-color: #00A651;
+}
+
+.service-wrap{
+    padding: 50px;
+}
+
+.service-wrap h2{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 45px;
+}
+
+.card-wrap {
+    display: flex;
+    gap: 100px;
+
+}
+
+.card{
+    border: 1px solid black;
+    width: 416px;
+    height: 232px;
+    border-radius: 15px;
+    padding: 35px 35px;
+}
+.bg-gray{
+    background-color: #F9F9F9;
+
+}
+.bg-whte{
+    background-color: white;
+}
+
+.card h5{
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.best-services{
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(rgba(0, 88, 83, 0.05), rgba(0, 88, 83, 0.05)), url("/assets/worldmap.png");
+}
+
+.best-services h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+    padding-top: 50px;
+
+}
+
+.best-services p{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+
+}
+
+.bestservice-card{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+
+.second-card{
+    width: 250px;
+    height: 250px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 15px;
+    padding: 60px 50px;
+    margin-top: 20px;
+}
+.second-card img{
+    align-items: center;
+    padding-left: 50px;
+}
+
+.second-card h3{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+}
+.second-card p{
+    margin-top: 20px;
+}
+
+.popular-card-wrap{
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+}
+
+.destination-card{
+    width: 550px;
+    height: 150px;
+    border-radius: 15px;
+    display: flex;
+    gap: 20px;
+}
+
+.destination-card-text{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.destination-card-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.card-text{
+    display: flex;
+    gap: 30px;
+    width: 200px;
+}
+.arr{
+    width: 20px;
+    height: 20px;
+}
+
+.package-wrap{
+    background-color: #ECF1F0;
+    height: 1009px;
+}
+
+.package-box {
+    width: 1500px;
+}
+.package-wrap h2{
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.package-wrap-button{
+    display: flex;
+    justify-content: space-around;
+    width: 1500px;
+    margin-bottom: 60px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+}
+.package-wrap-button button{
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border-color: #666666;
+}
+.bg-green{
+    background-color: #00A651;
+    border-color: #00A651;
+}
+
+.bg-black{
+    background-color: #666666;
+    border-color: #666666;
+}
+
+.package-card-wrap{
+    width: 1500px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 120px;
+    
+}
+
+.package-card{
+    width: 380px;
+    height: 480px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    text-align: left;
+}
+
+.package-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.package-card .first-line{
+    display: flex;
+    justify-content: space-between;
+}
+
+.package-card .info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.package-card .first-line p {
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+
+.package-card .info p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.package-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 20px;
+    gap: 100px;
+}
+
+.package-card-footer .location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.location p{
+    font-weight: bold;
+}
+
+.package-card-footer img{
+    width: 20px;
+    height: 20px;
+}
+
+.package-card-footer a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.package-btn button{
+    width: 300px;
+    height: 70px;
+    background-color: #00A651;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+    border-color: #00A651;
+    color: white;
+    font-size: 18px;
+}
+
+.booking-wrap{
+    width: 100%;
+    height: auto;
+}
+
+.booking-wrap h2{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.booking-wrap-p{
+    text-align: center;
+    font-size: 24px;
+}
+
+.booking-content{
+    height: 466px;
+    width: 1200px;
+    margin: 50px 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.booking-content-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.booking-card{
+    width: 548px;
+    height: 90px;
+    display: flex;
+    gap: 20px;
+}
+.booking-pp{
+    width: 68px;
+    height: 72px;
+}
+.booking-card-content{
+    width: 380px;
+}
+
+.booking-content-right{
+    width: 42.5%;
+    padding-left: 20px;
+    background: radial-gradient(circle, rgba(0, 0, 255, 0.1), rgba(255, 255, 255, 1));
+}
+.booking-card-wrap{
+    width: 485px;
+    height: 400px;
+    margin-top: 50px;
+}
+.booking-card-wrap-content{
+    width: 370px;
+    height: 400px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    position: absolute;
+}
+.greece-pp{
+    margin: 20px 20px;
+    width: 331px;
+    height: 161px;
+}
+
+.greece-content{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.going-content{
+    display: flex;
+    gap: 5px;
+}
+.booking-lastline{
+    padding-top: 40px;
+    display: flex;
+    gap: 180px;
+}
+.heart-pp{
+    width: 20px;
+    height: 18px;
+}
+.booking-trip{
+    width: 263px;
+    height: 129px;
+    background-color: #FFFFFF;
+    position: relative;
+    left: 220px;
+    top: 200px;
+}
+.booking-trip-content{
+    display: flex;
+    gap: 20px;
+}
+.mask-group{
+    width: 50px;
+    height: 50px;
+}
+.trip-status{
+    color:#84829A;
+    margin-bottom: 10px;
+}
+.trip-rome{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.trip-percent{
+    color: #84829A;
+    margin-bottom: 10px;
+
+}
+.testimony-wrap{
+    width: 100%;
+    height: 650px;
+    padding: 25px 60px;
+    background: #ECF1F0;
+}
+.testimony-wrap h2{
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.testimony-bg {
+    width: 1000px;
+    height: 380px;
+    margin: 0px auto;
+    display: block;
+}
+
+.testimony-content{
+    margin: 0px auto;
+    width: 1000px;
+    height: 450px;
+    position: relative;
+}
+
+.testimony-card {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    color: black;
+    padding: 60px 50px;
+    position: absolute;
+    bottom: 0px;
+    right: 300px;
+}
+.testimony-card-name {
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.pp{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 170px;
+    right: 480px;
+}
+
+.footer{
+    width: 100%;
+    height: 100vh;
+}
+
+.footer-subscribe{
+    width: 1000px;
+    height: 407px;
+    margin: 100px auto;
+    background: #9FFFEC;
+    border: 1px solid #32DF8F;
+    border-radius: 80px 20px 20px 20px;
+    position: relative;
+}
+
+.subscribe-info{
+    width: 819px;
+    height: 108px;
+    margin: 60px auto;
+    text-align: center;
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.subscribe-info-btn{
+    width: 600px;
+    height: 68px;
+    margin: 0px auto;
+}
+.subscribe-email{
+    width: 400px;
+    height: 68px;
+    margin-right: 10px;
+    border-color: #FFFFFF;
+}
+.subscribe-button{
+    width: 180px;
+    height: 68px;
+    background-color: #00A651;
+    border-color:#00A651;
+    border-radius: 10px;
+    color: white;
+}
+.subscribe-pp{
+    position: absolute;
+    bottom: 360px;
+    left: 950px;
+}
+.footer-contact{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-logo{
+    height: 250px;
+    width: 250px;
+}
+.goo-heading{
+    font-weight: 700;
+    font-size: 33px;
+    width: 77px;
+    height: 70px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.footer-contact-content{
+    height: 250px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.company{
+    height: 210px;
+    width: 160px;
+}
+
+.heading-four{
+    font-weight: bold;
+    font-size: 21px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer-app{
+    height: 250px;
+    width: 250px;
+}
+.footer-socials{
+    width: 57px;
+    height: 57px;
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.app-store{
+    display: flex;
+    gap: 10px;
+    width: 250px;
+    height: 49px;
+    margin-top: 20px;
+}
+.footer-lastline{
+    text-align: center;
+}
