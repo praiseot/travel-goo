@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 }
 
 .hero {
     width: 100%;
-    height: 100vh;
+    height: 900px;
      background: url(assets/background.jpg); 
     background-size: cover;
     background-position: top-left;
@@ -19,7 +22,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* padding: 20px 100px; */
 }
 
 .navbar{
@@ -30,10 +32,11 @@
     align-items: center;
 }
 .navbar a{
-    width: 85px;
+    width: 89px;
     height: 30px;
     color: #FFFFFF;
     text-decoration: none;
+    font-weight: 600;
     font-size: 20px;
     display: flex;
     align-items: center;
@@ -52,15 +55,17 @@
 }
 
 .hero-content{
-    width: 40%;
+    max-width: 779px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 300px;
 }
 
 .hero-content h1 {
+    width: 779px;
     color: white;
-    font-size: 75px;
+    font-weight: 800;
+    font-size: 70px;
     text-align: center;
 }
 .hero-content p {
@@ -527,11 +532,23 @@
     width: 600px;
     height: 68px;
     margin: 0px auto;
+    display: flex;
+}
+.email-icon-wrap{
+    width: 40px;
+    background-color: #FFFFFF;
+    padding: 25px 0px 0px 10px; 
+    align-items: center;
+}
+.email-icon{
+    width: 21px;
+    height: 18px;    
 }
 .subscribe-email{
     width: 400px;
     height: 68px;
     margin-right: 10px;
+    border: #FFFFFF solid 1px;
     border-color: #FFFFFF;
 }
 .subscribe-button{
@@ -546,6 +563,10 @@
     position: absolute;
     bottom: 360px;
     left: 950px;
+}
+.subscribe-pp2{
+    position: absolute;
+    right: -90px;
 }
 .footer-contact{
     width: 100%;
@@ -576,6 +597,9 @@
     height: 210px;
     width: 160px;
 }
+.company p {
+    margin-bottom: 30px;
+}
 
 .heading-four{
     font-weight: bold;
@@ -605,3 +629,4 @@
 .footer-lastline{
     text-align: center;
 }
+
